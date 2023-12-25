@@ -1,0 +1,35 @@
+span {
+  margin-left: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  :hover {
+    color: grey;
+  }
+}
+
+.star {
+  font-size: large;
+}
+
+.starActive {
+  color: red;
+}
+
+.starInactive {
+  color: #ccc;
+}
+
+body {
+  padding: 100px;
+  font-size: large;
+  text-align: left;
+}
+
+.rating-secondary {
+  background-color: black;
+  color: white;
+  padding: 6px;
+}
